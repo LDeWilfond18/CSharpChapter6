@@ -22,7 +22,7 @@ namespace TemperatureList
                 WriteLine("Enter temperatures " + j + " >> ");
                 temps[i] = Convert.ToInt32(ReadLine());
             }
-            average = (temps[0] + temps[1] + temps[2] + temps[3] + temps[4] + temps[5] + temps[6]) / 10;
+            average = (temps[0] + temps[1] + temps[2] + temps[3] + temps[4] + temps[5] + temps[6]) / 7;
             for( i = 0; i < 7; i++)
             {
                 int j = i + 1;
